@@ -1,0 +1,14 @@
+{
+  "dataset": "holoassist",
+  "dataset_root": "/path/to/HoloAssist",
+  "label_file": "/path/to/holoassist-release/src/data_2221/labels_20240719_2221_classes.json",
+  "class_file": "/path/to/holoassist-release/src/data_2221/labels_20240719_2221_label2idx.json",
+  "split_files": {
+    "train": "/path/to/holoassist-release/src/data_2221/train_0724.txt",
+    "val": "/path/to/holoassist-release/src/data_2221/val_0724.txt",
+    "test": "/path/to/holoassist-release/src/data_2221/test_0724.txt"
+  },
+  "intervention_key": "intervention_prediction_1",
+  "invalid_interval_policy": "quarantine",
+  "fps": 30.0
+}

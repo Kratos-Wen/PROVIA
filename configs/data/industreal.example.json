@@ -1,0 +1,16 @@
+{
+  "dataset": "industreal",
+  "dataset_root": "/path/to/IndustReal",
+  "recording_labels_root": "/path/to/IndustReal/annotations/by_recording",
+  "video_root": "/path/to/IndustReal/videos",
+  "video_patterns": [
+    "{video_id}.mp4"
+  ],
+  "procedure_info": "/path/to/industreal-official/PSR/procedure_info.json",
+  "fps": 10.0,
+  "splits": [
+    "train",
+    "val",
+    "test"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "dataset": "impact",
+  "annotation_dir": "data/impact_public_ego/parsed_annotations",
+  "annotation_glob": "*_parsed_annotations.json",
+  "split_file": "data/impact_public_ego/splits.json",
+  "video_root": "/path/to/IMPACT-v1.1/videos/ego",
+  "task_id": "industrial_assembly"
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# experiment state, caches, data, checkpoints and recordings stay outside version control
+# (anchored to the repository root so that source packages such as provia/data/ are versioned)
+/runs/
+/cache/
+/data/
+/frozen/
+/checkpoints/
+/results/
+/weights/
+/third_party/
+*.mp4
+*.pt
+*.pth
+*.npz
+*.npy
+*.log

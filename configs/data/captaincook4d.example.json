@@ -1,0 +1,10 @@
+{
+  "dataset": "captaincook4d",
+  "annotations_root": "/path/to/CaptainCook4D/annotations",
+  "split_file": "/path/to/CaptainCook4D/annotations/data_splits/person_data_split_combined.json",
+  "video_root": "/path/to/CaptainCook4D/videos",
+  "video_patterns": [
+    "{video_id}.mp4"
+  ],
+  "fps": 30.0
+}
